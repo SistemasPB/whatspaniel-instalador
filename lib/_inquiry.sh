@@ -3,7 +3,7 @@
 get_mysql_root_password() {
   
   print_banner
-  printf "${WHITE} 💻 Insira senha para o usuario Deploy e Banco de Dados (Não utilizar caracteres especiais):${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Ingrese la contraseña para el usuario de Implementación y Base de datos (No use caracteres especiales):${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " mysql_root_password
 }
@@ -11,7 +11,7 @@ get_mysql_root_password() {
 get_link_git() {
   
   print_banner
-  printf "${WHITE} 💻 Insira o link do GITHUB do seu WhatsPainel que deseja instalar:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Ingresa el enlace GITHUB de tu Whaticket que deseas instalar:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " link_git
 }
@@ -19,7 +19,7 @@ get_link_git() {
 get_instancia_add() {
   
   print_banner
-  printf "${WHITE} 💻 Informe um nome para a Instancia/Empresa que será instalada (Não utilizar espaços ou caracteres especiais, Utilizar Letras minusculas; ):${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Ingrese un nombre para la Instancia/Empresa que se instalará (No use espacios ni caracteres especiales, use letras minúsculas; ):${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " instancia_add
 }
@@ -27,7 +27,7 @@ get_instancia_add() {
 get_max_whats() {
   
   print_banner
-  printf "${WHITE} 💻 Informe a Qtde de Conexões/Whats que a ${instancia_add} poderá cadastrar:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Ingrese el número de conexiones que ${instancia_add} podra registrar:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " max_whats
 }
@@ -35,7 +35,7 @@ get_max_whats() {
 get_max_user() {
   
   print_banner
-  printf "${WHITE} 💻 Informe a Qtde de Usuarios/Atendentes que a ${instancia_add} poderá cadastrar:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Intruduzca la cantidad de usuarios/asistentes que el ${instancia_add} podra registar:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " max_user
 }
@@ -43,7 +43,7 @@ get_max_user() {
 get_frontend_url() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o domínio do FRONTEND/PAINEL para a ${instancia_add}:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Ingrese el dominio FRONTEND para ${instancia_add}:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " frontend_url
 }
@@ -51,7 +51,7 @@ get_frontend_url() {
 get_backend_url() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o domínio do BACKEND/API para a ${instancia_add}:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Ingrese el dominio BACKEND/API para ${instancia_add}:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " backend_url
 }
@@ -59,7 +59,7 @@ get_backend_url() {
 get_frontend_port() {
   
   print_banner
-  printf "${WHITE} 💻 Digite a porta do FRONTEND para a ${instancia_add}; Ex: 3000 A 3999 ${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Ingrese el puerto para el FRONTEND de ${instancia_add}; Ej: 3000 A 3999 ${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " frontend_port
 }
@@ -68,7 +68,7 @@ get_frontend_port() {
 get_backend_port() {
   
   print_banner
-  printf "${WHITE} 💻 Digite a porta do BACKEND para esta instancia; Ex: 4000 A 4999 ${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Ingrese el puerto para el BACKEND; Ej: 4000 A 4999 ${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " backend_port
 }
@@ -76,7 +76,7 @@ get_backend_port() {
 get_redis_port() {
   
   print_banner
-  printf "${WHITE} 💻 Digite a porta do REDIS/AGENDAMENTO MSG para a ${instancia_add}; Ex: 5000 A 5999 ${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Ingrese el puerto de REDIS/AGENDAMENTO MSG para ${instancia_add}; Ej: 5000 A 5999 ${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " redis_port
 }
