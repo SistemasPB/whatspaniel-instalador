@@ -201,14 +201,14 @@ software_dominio() {
 inquiry_options() {
   
   print_banner
-  printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador WhatsPainel, Selecione abaixo a proxima ação!${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Bienvenido al Instalador de CRM, seleccione una acción para continuar!${GRAY_LIGHT}"
   printf "\n\n"
-  printf "   [0] Instalar WhatsPainel\n"
-  printf "   [1] Atualizar WhatsPainel\n"
-  printf "   [2] Deletar WhatsPainel\n"
-  printf "   [3] Bloquear WhatsPainel\n"
-  printf "   [4] Desbloquear WhatsPainel\n"
-  printf "   [5] Alter. dominio WhatsPainel\n"
+  printf "   [0] Instalar CRM\n"
+  printf "   [1] Actualizar CRM\n"
+  printf "   [2] Eliminar CRM\n"
+  printf "   [3] Bloquear CRM\n"
+  printf "   [4] Desbloquear CRM\n"
+  printf "   [5] Cambiar. dominio CRM\n"
   printf "\n"
   read -p "> " option
 
